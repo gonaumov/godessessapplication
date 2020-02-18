@@ -1,0 +1,11 @@
+<div class="card-container">
+  <div class="card card-small" tabindex="0">
+    Name:
+    <input type="text" #godessName required="required"/>
+  </div>
+  <div class="card card-small" tabindex="0">
+    <button (click)="add(godessName.value); godessName.value=''">
+      add
+    </button>
+  </div>
+</div>
