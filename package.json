@@ -9,7 +9,8 @@
     "test": "ng test",
     "test-closing": "ng test --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "generate": "ng build --prod --output-path docs --base-href \"https://gonaumov.github.io/godessessapplication/\""
   },
   "private": true,
   "dependencies": {
