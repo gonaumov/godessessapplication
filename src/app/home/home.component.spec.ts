@@ -45,7 +45,7 @@ describe('HomeComponent', () => {
     ).and.callThrough();
 
     // Act
-    component.ngOnInit()
+    component.ngOnInit();
 
     // Assert
     expect(fetchUserSpy).toHaveBeenCalled();
